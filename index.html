@@ -24,24 +24,23 @@
   <body>
     <a class="skip" href="#content">Skip to content</a>
 
+    <div class="topbar">
+      <div class="container topbar__inner">
+        <div><strong>Independent</strong> Canadian finance newsletter</div>
+        <div>Mon–Fri · 5:30 AM ET · 5 minutes</div>
+      </div>
+    </div>
+
     <header class="header">
       <div class="container header__inner">
-        <a class="brand" href="/">
-          <svg class="logo" width="34" height="34" viewBox="0 0 64 64" aria-hidden="true" focusable="false">
-  <defs>
-    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0ea5e9"/>
-      <stop offset="1" stop-color="#22c55e"/>
-    </linearGradient>
-  </defs>
-  <rect x="6" y="6" width="52" height="52" rx="14" fill="url(#g)" />
-  <path d="M20 36c6 8 18 8 24 0" fill="none" stroke="rgba(255,255,255,.92)" stroke-width="6" stroke-linecap="round"/>
-  <path d="M20 24h24" stroke="rgba(255,255,255,.92)" stroke-width="6" stroke-linecap="round"/>
+        <a class="brand" href="/" aria-label="Home">
+          <span class="mark"><svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+  <path d="M12 2l2.4 5 5.5.5-4.2 3.6 1.3 5.4-5-2.8-5 2.8 1.3-5.4L4.1 7.5 9.6 7 12 2z" fill="none" stroke="currentColor" stroke-width="1.8" />
 </svg>
-
-          <span class="brand__text">
-            <span class="brand__name">The Loonie Report</span>
-            <span class="brand__tag">A calm, daily read on Canadian money.</span>
+</span>
+          <span>
+            <span class="wordmark">The Loonie Report</span><br />
+            <span class="brand__tag">Rates · Housing · Markets · Practical moves</span>
           </span>
         </a>
 
@@ -49,7 +48,7 @@
           <a href="/about/">About</a>
           <a href="/archive/">Archive</a>
           <a href="/privacy/">Privacy</a>
-          <a class="btn btn--small" href="#subscribe">Subscribe</a>
+          <a class="btn" href="#subscribe">Subscribe</a>
         </nav>
       </div>
     </header>
@@ -58,43 +57,97 @@
       <div class="container">
         
 <section class="hero">
-  <div class="kicker"><span class="dot"></span> Mon–Fri · 5:30 AM ET · 5 minutes</div>
-  <h1>Canadian finance, distilled.</h1>
-  <p>The Loonie Report is a daily Canadian finance newsletter: rates, housing, markets, and practical moves — in 5 minutes.</p>
+  <div class="kicker"><span>Today’s briefing, without the noise.</span><span class="rule"></span><span class="pill">Free · Source-driven · Canada-first</span></div>
+  <div class="hero__grid">
+    <div>
+      <h1>Canadian finance, distilled.</h1>
+      <p>The Loonie Report is a daily Canadian finance newsletter: rates, housing, markets, and practical moves — in 5 minutes.</p>
 
-  <div class="actions" id="subscribe">
-    <a class="btn" href="#" aria-label="Subscribe (coming soon)">Subscribe (coming soon)</a>
-    <a class="btn btn--ghost" href="/about/">What is this?</a>
-  </div>
+      <div class="actions" id="subscribe">
+        <a class="btn" href="#" aria-label="Subscribe (coming soon)">Subscribe free (coming soon)</a>
+        <a class="btn btn--ghost" href="/archive/">Read the latest issue</a>
+      </div>
 
-  <div class="grid">
-    <div class="card">
-      <h2>What you’ll get</h2>
-      <ul class="list">
-        <li><span class="badge">1</span><span><strong>Rates:</strong> Bank of Canada context, not hot takes.</span></li>
-        <li><span class="badge">2</span><span><strong>Housing:</strong> the numbers that move affordability.</span></li>
-        <li><span class="badge">3</span><span><strong>Markets:</strong> CAD, TSX, and global headlines that matter.</span></li>
-        <li><span class="badge">4</span><span><strong>Practical moves:</strong> one clear idea you can act on.</span></li>
+      <ul class="list" aria-label="Credibility bullets">
+        <li>Built for Canadians: rates, housing, markets, and the loonie — in one place.</li>
+        <li>Calm, structured sections. No hype. No doomscrolling.</li>
+        <li>Actionable context, not hot takes.</li>
       </ul>
     </div>
 
-    <div class="card">
-      <h2>Sample (snippet)</h2>
-      <p class="small">A tiny taste of the tone. The real newsletter will be cleaner and data-driven.</p>
-      <div class="sample" aria-label="Sample issue">
-        <div><strong>Today:</strong> Mortgage renewals + CAD watch</div>
-        <div>—</div>
-        <div><strong>Rates</strong> · A single data point: 5-year GoC yields are flat week-over-week.</div>
-        <div><strong>Housing</strong> · Listings tick up in Ontario; price cuts spreading past condos.</div>
-        <div><strong>Markets</strong> · TSX energy up; tech mixed. CAD steady near recent range.</div>
-        <div><strong>Move</strong> · If you renew in 2026, build a “rate shock buffer” now (3–6 months expenses).</div>
+    <aside class="card issue" aria-label="Latest issue preview">
+      <div class="label">Latest issue · Tue</div>
+      <h2 style="margin:10px 0 6px; font-size: var(--step-2)">Mortgage renewals & USD/CAD</h2>
+      <p class="small" style="margin:0 0 12px">3 highlights · ~5 min</p>
+      <ul class="list" style="margin-top:0">
+        <li><strong>Rates:</strong> what steady yields mean for fixed mortgages this week.</li>
+        <li><strong>Housing:</strong> listings up, cuts spreading beyond condos.</li>
+        <li><strong>Move:</strong> build a “rate shock buffer” (3–6 months expenses) before renewal.</li>
+      </ul>
+      <div class="actions" style="margin-top:14px">
+        <a class="btn btn--ghost" href="/archive/">Read (coming soon)</a>
       </div>
+    </aside>
+  </div>
+</section>
+
+<div class="divider" role="presentation"></div>
+
+<section class="sections">
+  <div class="kicker"><span>What you’ll get</span><span class="rule"></span><span class="pill">Four sections · Same structure daily</span></div>
+
+  <div class="grid" style="margin-top:16px">
+    <div class="card card--flat mini">
+      <div class="label">Rates</div>
+      <h3>Bank of Canada context</h3>
+      <p>Policy moves, yields, and what they imply for borrowing costs.</p>
+    </div>
+    <div class="card card--flat mini">
+      <div class="label">Housing</div>
+      <h3>Affordability drivers</h3>
+      <p>Listings, price cuts, and the signals that actually matter.</p>
+    </div>
+    <div class="card card--flat mini">
+      <div class="label">Markets</div>
+      <h3>TSX, CAD, global headlines</h3>
+      <p>What moved, why it moved, and what to watch next.</p>
+    </div>
+  </div>
+
+  <div class="grid" style="margin-top:16px">
+    <div class="card card--flat mini">
+      <div class="label">Practical move</div>
+      <h3>One clear idea</h3>
+      <p>A sensible, non-hype step you can consider that week.</p>
+    </div>
+    <div class="card card--flat mini">
+      <div class="label">Sources</div>
+      <h3>Source-driven</h3>
+      <p>Built from reputable Canadian data sources, not vibes.</p>
+    </div>
+    <div class="card card--flat mini">
+      <div class="label">Tone</div>
+      <h3>Calm by design</h3>
+      <p>Designed to reduce noise and increase clarity.</p>
     </div>
   </div>
 </section>
 
-<section class="card" style="margin-top:16px">
-  <h2>FAQ</h2>
+<section class="card" style="margin-top: var(--space-6)">
+  <div class="subscribe">
+    <div>
+      <h2 style="margin:0 0 8px">Subscribe</h2>
+      <p class="small" style="margin:0">Free. No spam. Unsubscribe anytime. Canada-focused. Not investment advice.</p>
+    </div>
+    <form class="form" action="#" method="post" aria-label="Subscribe form">
+      <input class="input" type="email" placeholder="you@example.com" disabled />
+      <button class="btn" type="button" disabled>Join (soon)</button>
+    </form>
+  </div>
+</section>
+
+<section class="card" style="margin-top: var(--space-6)">
+  <h2 style="margin-top:0">FAQ</h2>
   <div class="faq">
     <details>
       <summary>Is this free?</summary>
@@ -121,18 +174,8 @@
     <footer class="footer">
       <div class="container footer__inner">
         <p><strong>The Loonie Report</strong> — A calm, daily read on Canadian money.</p>
-        <p class="muted">© 2026 · Built in Canada.</p>
+        <p class="small">© 2026 · For informational purposes only. Not investment advice.</p>
       </div>
     </footer>
-
-    <script>
-      // Tiny progressive enhancement: honor system dark mode and allow toggle
-      (function () {
-        const key = "tlr-theme";
-        const root = document.documentElement;
-        const stored = localStorage.getItem(key);
-        if (stored) root.dataset.theme = stored;
-      })();
-    </script>
   </body>
 </html>
