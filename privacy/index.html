@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Privacy · The Loonie Report</title>
+    <meta name="description" content="How we handle your data." />
+
+    <link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="/assets/css/site.css" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="The Loonie Report" />
+    <meta property="og:title" content="Privacy · The Loonie Report" />
+    <meta property="og:description" content="How we handle your data." />
+    <meta property="og:image" content="/assets/img/og.png" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Privacy · The Loonie Report" />
+    <meta name="twitter:description" content="How we handle your data." />
+    <meta name="twitter:image" content="/assets/img/og.png" />
+  </head>
+  <body>
+    <a class="skip" href="#content">Skip to content</a>
+
+    <header class="header">
+      <div class="container header__inner">
+        <a class="brand" href="/">
+          <svg class="logo" width="34" height="34" viewBox="0 0 64 64" aria-hidden="true" focusable="false">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0ea5e9"/>
+      <stop offset="1" stop-color="#22c55e"/>
+    </linearGradient>
+  </defs>
+  <rect x="6" y="6" width="52" height="52" rx="14" fill="url(#g)" />
+  <path d="M20 36c6 8 18 8 24 0" fill="none" stroke="rgba(255,255,255,.92)" stroke-width="6" stroke-linecap="round"/>
+  <path d="M20 24h24" stroke="rgba(255,255,255,.92)" stroke-width="6" stroke-linecap="round"/>
+</svg>
+
+          <span class="brand__text">
+            <span class="brand__name">The Loonie Report</span>
+            <span class="brand__tag">A calm, daily read on Canadian money.</span>
+          </span>
+        </a>
+
+        <nav class="nav" aria-label="Primary">
+          <a href="/about/">About</a>
+          <a href="/archive/">Archive</a>
+          <a href="/privacy/">Privacy</a>
+          <a class="btn btn--small" href="#subscribe">Subscribe</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="content" class="main">
+      <div class="container">
+        
+<section class="card">
+  <h1>Privacy</h1>
+  <p class="muted">Short version: we’ll only use your email to send The Loonie Report. We won’t sell your data.</p>
+  <p class="muted">Full policy will be finalized once the mailing platform is live.</p>
+</section>
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__inner">
+        <p><strong>The Loonie Report</strong> — A calm, daily read on Canadian money.</p>
+        <p class="muted">© 2026 · Built in Canada.</p>
+      </div>
+    </footer>
+
+    <script>
+      // Tiny progressive enhancement: honor system dark mode and allow toggle
+      (function () {
+        const key = "tlr-theme";
+        const root = document.documentElement;
+        const stored = localStorage.getItem(key);
+        if (stored) root.dataset.theme = stored;
+      })();
+    </script>
+  </body>
+</html>
