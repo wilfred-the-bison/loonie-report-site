@@ -1,17 +1,25 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="The Loonie Report mark">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#06101e"/>
-      <stop offset="1" stop-color="#0b1b33"/>
+    <linearGradient id="coin" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fbbf24"/>
+      <stop offset="1" stop-color="#f59e0b"/>
     </linearGradient>
-    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0ea5e9"/>
-      <stop offset="1" stop-color="#22c55e"/>
+    <linearGradient id="shine" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="rgba(255,255,255,.75)"/>
+      <stop offset="1" stop-color="rgba(255,255,255,0)"/>
     </linearGradient>
   </defs>
-  <rect width="1200" height="630" fill="url(#bg)"/>
-  <circle cx="220" cy="190" r="120" fill="url(#g)" opacity=".95"/>
-  <text x="360" y="250" font-family="ui-sans-serif, system-ui" font-size="78" fill="#e7eefc" font-weight="800">The Loonie Report</text>
-  <text x="360" y="330" font-family="ui-sans-serif, system-ui" font-size="34" fill="#a8b6d6">A calm, daily read on Canadian money.</text>
-  <text x="360" y="400" font-family="ui-sans-serif, system-ui" font-size="26" fill="#a8b6d6">Rates · Housing · Markets · Practical moves</text>
+
+  <!-- coin -->
+  <circle cx="32" cy="32" r="26" fill="url(#coin)"/>
+  <circle cx="32" cy="32" r="26" fill="none" stroke="#d97706" stroke-width="2"/>
+  <circle cx="32" cy="32" r="22" fill="none" stroke="rgba(11,18,32,.18)" stroke-width="1" stroke-dasharray="2.2 3"/>
+
+  <!-- highlight -->
+  <path d="M14 28c4-10 13-16 24-16 6 0 11 2 15 5" fill="none" stroke="rgba(255,255,255,.55)" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- minimal loon silhouette (very simplified) -->
+  <path d="M20 40c1.8-6.6 7.1-10.8 14-10.8 6.2 0 10.3 3 12.2 6.8 1.3 2.6 1 5.7-1.1 7.7-2.1 2-5.6 2.5-9.3 1.3-2.5-.8-4.7-2.3-6.8-4.5-2.6 1.1-5 1.3-7 .8-1.8-.4-2.8-1.6-2-3.3z"
+        fill="#0b1220" opacity=".92"/>
+  <circle cx="40.7" cy="33.5" r="1.1" fill="#ffffff" opacity=".9"/>
 </svg>
